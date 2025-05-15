@@ -1,0 +1,213 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*
+    ******************************************************************************************************************************************************
+    icon svg - Start
+    ******************************************************************************************************************************************************
+*/
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .icon::before {
+        content: "";
+        padding-right: 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+.icon-calendar {
+    width: 24px;
+    height: 24px;
+    background-image: url('../icon/calendar.svg');
+}
+
+.bi {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .bi::before {
+        content: "";
+        padding-right: 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+.bi-dash-square {
+    width: 22px;
+    height: 22px;
+    background-image: url('../icon/dash-square.svg');
+}
+
+.bi-plus-square {
+    width: 22px;
+    height: 22px;
+    background-image: url('../icon/plus-square.svg');
+}
+
+/*
+    ******************************************************************************************************************************************************
+    icon svg - End
+    ******************************************************************************************************************************************************
+*/
+
+
+/*
+    ******************************************************************************************************************************************************
+    Tree Structure with Nested Checkboxes - Start
+    ******************************************************************************************************************************************************
+*/
+
+.treeview {
+    
+}
+
+    .treeview .treeview-container {
+    }
+
+    .treeview ul {
+        list-style-type: none;
+        padding-left: 10px; /* Indent for child items */
+    }
+
+    .treeview .treeview-item {
+        margin-left: 20px;
+    }
+
+        .treeview .treeview-item .row {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #d7d7d7;
+        }
+
+        .treeview .treeview-item .treeview-item-container {
+            align-items: center;
+        }
+
+            .treeview .treeview-item .treeview-item-container .treeview-collapse-btn {
+                cursor: pointer;
+            }
+
+            .treeview .treeview-item .treeview-item-container .col-1 {
+                width: 40px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .show {
+                display: block !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .hide {
+                display: none !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-50 {
+                width: 500px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-45 {
+                width: 450px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-44 {
+                width: 440px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-40 {
+                width: 400px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-41 {
+                width: 410px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-35 {
+                width: 350px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-38 {
+                width: 380px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-30 {
+                width: 300px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-25 {
+                width: 250px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-20 {
+                width: 200px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .w-15 {
+                width: 150px !important;
+            }
+
+            .treeview .treeview-item .treeview-item-container .treeview-form-check-container {
+                float: left;
+                display: flex;
+                
+            }
+
+            .treeview .treeview-item .treeview-item-container .treeview-form-group-container {
+                float: left;
+                display: flex;
+                margin-left: 5px;
+            }
+
+            .treeview .treeview-item .treeview-item-container .treeview-form-check {
+            }
+
+                .treeview .treeview-item .treeview-item-container .treeview-form-check .treeview-form-check-label {
+                }
+
+                .treeview .treeview-item .treeview-item-container .treeview-form-check .treeview-label-container {
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .treeview .treeview-item .treeview-item-container .treeview-form-check .treeview-label-container i {
+                        margin-right: 5px;
+                        font-size: 20px;
+                    }
+
+                    .treeview .treeview-item .treeview-item-container .treeview-form-check .treeview-label-container .form-check-input {
+                        margin-left: 5px; /* Space between icon and checkbox */
+                        margin-right: 10px;
+                        margin-top: 0px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+
+/*
+    ******************************************************************************************************************************************************
+    Tree Structure with Nested Checkboxes - Start
+    ******************************************************************************************************************************************************
+*/
